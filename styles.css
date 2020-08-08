@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("images/background.jpg");
+  background-color: #0F0F0F;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+a:hover{
+  color: #B0CAC7;
+  text-decoration: none;
+}
+
+.brand {
+  font-family: 'Fugaz One', cursive;
+  font-size: 48px;
+  line-height: 70px;
+  margin-left: 1%;
+   color: #B0CAC7;
+}
+
+.options {
+  text-align: center;
+  position: absolute;
+  width: 230px;
+  height: 207px;
+  left: 1118px;
+  top: 22px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50px 158px;
+  grid-gap: 10px 10px;
+}
+
+.options-paragraph {
+  font-family: 'Staatliches', cursive;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  width: auto;
+  color: #B0CAC7;
+}
+
+.drum{
+  height: 500px;
+}
+
+.big-logo {
+  background-color: #A3F7BF;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 470px;
+  top: 170px;
+  border-radius: 300px;
+  text-align: center;
+}
+
+.big-logo-img {
+  height: 300px;
+  width: 300px;
+  margin-top: 60px;
+}
+
+.key {
+  border: .4rem solid #111010;
+  text-align: center;
+}
+
+.kbd {
+  font-family: 'Staatliches', cursive;
+  font-weight: bold;
+  color: #000000;
+  font-size: 3.5rem;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.a {
+  background-color: #F1C5C5;
+  border-radius: 140px;
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  left: 400px;
+  top: 80px;
+}
+
+.s {
+  background-color: #8BCDCD;
+  border-radius: 215px;
+  position: absolute;
+  width: 215px;
+  height: 215px;
+  left: 250px;
+  top: 180px;
+}
+
+.d {
+  background-color: #E5EDB7;
+  border-radius: 180px;
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 310px;
+  top: 400px;
+}
+
+.h {
+  background-color: #F1C5C5;
+  border-radius: 140px;
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  left: 771.04px;
+  top: 80px;
+}
+
+.j {
+  background-color: #E5EDB7;
+  border-radius: 215px;
+  position: absolute;
+  width: 215px;
+  height: 215px;
+  left: 865px;
+  top: 155px;
+}
+
+.k {
+  background-color: #8BCDCD;
+  border-radius: 215px;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 870px;
+  top: 380px;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #fa26a0;
+  box-shadow: 0 0 1rem #f35588;
+  opacity: 0.5;
+}
