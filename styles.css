@@ -68,6 +68,7 @@ a:hover{
 .key {
   border: .4rem solid #111010;
   text-align: center;
+  cursor: pointer;
 }
 
 .kbd {
@@ -81,6 +82,7 @@ a:hover{
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  pointer-events: none;
 }
 
 .a {
